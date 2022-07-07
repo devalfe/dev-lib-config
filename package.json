@@ -1,5 +1,5 @@
 {
-  "name": "dev-lib-config",
+  "name": "dev-config",
   "version": "1.0.0",
   "workspaces": [
     "packages/*"
