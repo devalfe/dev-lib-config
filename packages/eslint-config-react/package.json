@@ -1,0 +1,25 @@
+{
+    "name": "@devalfe/eslint-config-react",
+    "version": "1.0.0",
+    "main": "./eslint-config.js",
+    "peerDependencies": {
+        "@babel/eslint-parser": "7.16.5",
+        "eslint": "8.5.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-config-standard": "16.0.3",
+        "eslint-import-resolver-node": "0.3.6",
+        "eslint-plugin-import": "2.25.3",
+        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-prettier": "4.0.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-react": "7.28.0",
+        "eslint-plugin-react-hooks": "4.3.0",
+        "prettier": "2.5.1"
+    },
+    "scripts": {
+        "publish-manual": "npm publish"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
