@@ -1,5 +1,5 @@
 {
-  "name": "dev-config",
+  "name": "config-lib-development",
   "version": "1.0.0",
   "workspaces": [
     "packages/*"
@@ -7,8 +7,8 @@
   "description": "Shared ESLint and Prettier config",
   "main": "eslint-config.js",
   "scripts": {
-    "publish-eslint-config": "npm publish --workspace @devalfe/eslint-config-react --access public",
-    "publish-prettier-config": "npm publish --workspace @devalfe/prettier-config --access public"
+    "publish-eslint-config": "npm publish --workspace eslint-config-react --access public",
+    "publish-prettier-config": "npm publish --workspace prettier-config --access public"
   },
   "author": "devalfe@gmail.com",
   "license": "ISC"
